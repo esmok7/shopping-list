@@ -24,5 +24,10 @@ To deploy to device
 -------------------
 Connect device with usb cable
 mvn android:devices - This should list all the devices(e.g:- emulator + device)
-???
+Stop emulator
+mvn clean install android:deploy
+
+View logs (when using emulator)
+-------------------------------
+In command shell run 'adb logcat'
 

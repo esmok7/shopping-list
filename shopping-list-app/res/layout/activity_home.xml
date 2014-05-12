@@ -1,4 +1,5 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -11,4 +12,20 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-</RelativeLayout>
+    <Button android:id="@+id/create_list_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_list_button_msg"/>
+
+    <Button android:id="@+id/start_shopping_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_shopping_button_msg"/>
+
+    <Button android:id="@+id/items_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/items_button_msg"
+            android:onClick="gotoItemsActivity"/>
+
+</LinearLayout>

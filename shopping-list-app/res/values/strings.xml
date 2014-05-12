@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Shopping List</string>
     <string name="hello">Hello shopping-list-app!</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="start_shopping_button_msg">Start Shopping</string>
+    <string name="items_button_msg">Items</string>
+    <string name="create_list_button_msg">Create List</string>
 
 </resources>
